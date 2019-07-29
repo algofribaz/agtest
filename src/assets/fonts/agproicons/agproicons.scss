@@ -1,0 +1,973 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?syxn2x') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?syxn2x') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?syxn2x##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="agi-"], [class*=" agi-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.agi-profitability {
+  &:before {
+    content: $agi-profitability; 
+  }
+}
+.agi-rocket {
+  &:before {
+    content: $agi-rocket; 
+  }
+}
+.agi-upgrade {
+  &:before {
+    content: $agi-upgrade; 
+  }
+}
+.agi-trucknet {
+  &:before {
+    content: $agi-trucknet; 
+  }
+}
+.agi-tachofresh {
+  &:before {
+    content: $agi-tachofresh; 
+  }
+}
+.agi-delete-selected {
+  &:before {
+    content: $agi-delete-selected; 
+  }
+}
+.agi-calendar-solid {
+  &:before {
+    content: $agi-calendar-solid; 
+  }
+}
+.agi-eco-driving {
+  &:before {
+    content: $agi-eco-driving; 
+  }
+}
+.agi-thumb-down-outline-1 {
+  &:before {
+    content: $agi-thumb-down-outline-1; 
+  }
+}
+.agi-thumb-up-outline-1 {
+  &:before {
+    content: $agi-thumb-up-outline-1; 
+  }
+}
+.agi-emoticon-neutral {
+  &:before {
+    content: $agi-emoticon-neutral; 
+  }
+}
+.agi-help-circle-outline {
+  &:before {
+    content: $agi-help-circle-outline; 
+  }
+}
+.agi-emoticon-cool {
+  &:before {
+    content: $agi-emoticon-cool; 
+  }
+}
+.agi-folder_locked_open {
+  &:before {
+    content: $agi-folder_locked_open; 
+  }
+}
+.agi-folder_shared {
+  &:before {
+    content: $agi-folder_shared; 
+  }
+}
+.agi-folder_shared_locked {
+  &:before {
+    content: $agi-folder_shared_locked; 
+  }
+}
+.agi-folder_shared_open {
+  &:before {
+    content: $agi-folder_shared_open; 
+  }
+}
+.agi-gauge {
+  &:before {
+    content: $agi-gauge; 
+  }
+}
+.agi-view-list {
+  &:before {
+    content: $agi-view-list; 
+  }
+}
+.agi-couleur-fond {
+  &:before {
+    content: $agi-couleur-fond; 
+  }
+}
+.agi-wrench {
+  &:before {
+    content: $agi-wrench; 
+  }
+}
+.agi-power {
+  &:before {
+    content: $agi-power; 
+  }
+}
+.agi-cancel {
+  &:before {
+    content: $agi-cancel; 
+  }
+}
+.agi-driving {
+  &:before {
+    content: $agi-driving; 
+  }
+}
+.agi-available {
+  &:before {
+    content: $agi-available; 
+  }
+}
+.agi-parking-1 {
+  &:before {
+    content: $agi-parking-1; 
+  }
+}
+.agi-archive {
+  &:before {
+    content: $agi-archive; 
+  }
+}
+.agi-archived {
+  &:before {
+    content: $agi-archived; 
+  }
+}
+.agi-departure {
+  &:before {
+    content: $agi-departure; 
+  }
+}
+.agi-erase {
+  &:before {
+    content: $agi-erase; 
+  }
+}
+.agi-favorite {
+  &:before {
+    content: $agi-favorite; 
+  }
+}
+.agi-ignition-off {
+  &:before {
+    content: $agi-ignition-off; 
+  }
+}
+.agi-ignition {
+  &:before {
+    content: $agi-ignition; 
+  }
+}
+.agi-working {
+  &:before {
+    content: $agi-working; 
+  }
+}
+.agi-printer {
+  &:before {
+    content: $agi-printer; 
+  }
+}
+.agi-replay {
+  &:before {
+    content: $agi-replay; 
+  }
+}
+.agi-security {
+  &:before {
+    content: $agi-security; 
+  }
+}
+.agi-speedometer {
+  &:before {
+    content: $agi-speedometer; 
+  }
+}
+.agi-timer {
+  &:before {
+    content: $agi-timer; 
+  }
+}
+.agi-trending-down {
+  &:before {
+    content: $agi-trending-down; 
+  }
+}
+.agi-trending-up {
+  &:before {
+    content: $agi-trending-up; 
+  }
+}
+.agi-truck {
+  &:before {
+    content: $agi-truck; 
+  }
+}
+.agi-view-dashboard {
+  &:before {
+    content: $agi-view-dashboard; 
+  }
+}
+.agi-gps {
+  &:before {
+    content: $agi-gps; 
+  }
+}
+.agi-report {
+  &:before {
+    content: $agi-report; 
+  }
+}
+.agi-arrival {
+  &:before {
+    content: $agi-arrival; 
+  }
+}
+.agi-engine {
+  &:before {
+    content: $agi-engine; 
+  }
+}
+.agi-star-outline {
+  &:before {
+    content: $agi-star-outline; 
+  }
+}
+.agi-valid {
+  &:before {
+    content: $agi-valid; 
+  }
+}
+.agi-iddletime-ow {
+  &:before {
+    content: $agi-iddletime-ow; 
+  }
+}
+.agi-email {
+  &:before {
+    content: $agi-email; 
+  }
+}
+.agi-email-outline {
+  &:before {
+    content: $agi-email-outline; 
+  }
+}
+.agi-eye {
+  &:before {
+    content: $agi-eye; 
+  }
+}
+.agi-file-excel {
+  &:before {
+    content: $agi-file-excel; 
+  }
+}
+.agi-file-pdf {
+  &:before {
+    content: $agi-file-pdf; 
+  }
+}
+.agi-filter {
+  &:before {
+    content: $agi-filter; 
+  }
+}
+.agi-filter-outline {
+  &:before {
+    content: $agi-filter-outline; 
+  }
+}
+.agi-gas-station {
+  &:before {
+    content: $agi-gas-station; 
+  }
+}
+.agi-information {
+  &:before {
+    content: $agi-information; 
+  }
+}
+.agi-information-outline {
+  &:before {
+    content: $agi-information-outline; 
+  }
+}
+.agi-laptop {
+  &:before {
+    content: $agi-laptop; 
+  }
+}
+.agi-lock {
+  &:before {
+    content: $agi-lock; 
+  }
+}
+.agi-magnify {
+  &:before {
+    content: $agi-magnify; 
+  }
+}
+.agi-map {
+  &:before {
+    content: $agi-map; 
+  }
+}
+.agi-map-marker-radius {
+  &:before {
+    content: $agi-map-marker-radius; 
+  }
+}
+.agi-menu {
+  &:before {
+    content: $agi-menu; 
+  }
+}
+.agi-menu-down {
+  &:before {
+    content: $agi-menu-down; 
+  }
+}
+.agi-menu-left {
+  &:before {
+    content: $agi-menu-left; 
+  }
+}
+.agi-menu-right {
+  &:before {
+    content: $agi-menu-right; 
+  }
+}
+.agi-menu-up {
+  &:before {
+    content: $agi-menu-up; 
+  }
+}
+.agi-page-first {
+  &:before {
+    content: $agi-page-first; 
+  }
+}
+.agi-page-last {
+  &:before {
+    content: $agi-page-last; 
+  }
+}
+.agi-pencil {
+  &:before {
+    content: $agi-pencil; 
+  }
+}
+.agi-phone {
+  &:before {
+    content: $agi-phone; 
+  }
+}
+.agi-play-circle-outline {
+  &:before {
+    content: $agi-play-circle-outline; 
+  }
+}
+.agi-plus {
+  &:before {
+    content: $agi-plus; 
+  }
+}
+.agi-siren {
+  &:before {
+    content: $agi-siren; 
+  }
+}
+.agi-arrow-left {
+  &:before {
+    content: $agi-arrow-left; 
+  }
+}
+.agi-itineraire-final {
+  &:before {
+    content: $agi-itineraire-final; 
+  }
+}
+.agi-action {
+  &:before {
+    content: $agi-action; 
+  }
+}
+.agi-break {
+  &:before {
+    content: $agi-break; 
+  }
+}
+.agi-checkbox-blank-outline-2 {
+  &:before {
+    content: $agi-checkbox-blank-outline-2; 
+  }
+}
+.agi-account {
+  &:before {
+    content: $agi-account; 
+  }
+}
+.agi-account-multiple {
+  &:before {
+    content: $agi-account-multiple; 
+  }
+}
+.agi-chevron-down {
+  &:before {
+    content: $agi-chevron-down; 
+  }
+}
+.agi-bell {
+  &:before {
+    content: $agi-bell; 
+  }
+}
+.agi-alert {
+  &:before {
+    content: $agi-alert; 
+  }
+}
+.agi-alert-octagon {
+  &:before {
+    content: $agi-alert-octagon; 
+  }
+}
+.agi-arrow-all {
+  &:before {
+    content: $agi-arrow-all; 
+  }
+}
+.agi-arrow-compress-all {
+  &:before {
+    content: $agi-arrow-compress-all; 
+  }
+}
+.agi-av-timer {
+  &:before {
+    content: $agi-av-timer; 
+  }
+}
+.agi-bell-ring {
+  &:before {
+    content: $agi-bell-ring; 
+  }
+}
+.agi-account-star-variant {
+  &:before {
+    content: $agi-account-star-variant; 
+  }
+}
+.agi-calendar-clock {
+  &:before {
+    content: $agi-calendar-clock; 
+  }
+}
+.agi-calendar-range {
+  &:before {
+    content: $agi-calendar-range; 
+  }
+}
+.agi-calendar-today {
+  &:before {
+    content: $agi-calendar-today; 
+  }
+}
+.agi-cellphone-iphone {
+  &:before {
+    content: $agi-cellphone-iphone; 
+  }
+}
+.agi-chart-line {
+  &:before {
+    content: $agi-chart-line; 
+  }
+}
+.agi-warehouse {
+  &:before {
+    content: $agi-warehouse; 
+  }
+}
+.agi-account-outline {
+  &:before {
+    content: $agi-account-outline; 
+  }
+}
+.agi-chevron-left {
+  &:before {
+    content: $agi-chevron-left; 
+  }
+}
+.agi-chevron-right {
+  &:before {
+    content: $agi-chevron-right; 
+  }
+}
+.agi-chevron-up {
+  &:before {
+    content: $agi-chevron-up; 
+  }
+}
+.agi-city {
+  &:before {
+    content: $agi-city; 
+  }
+}
+.agi-clock {
+  &:before {
+    content: $agi-clock; 
+  }
+}
+.agi-clock-fast {
+  &:before {
+    content: $agi-clock-fast; 
+  }
+}
+.agi-content-save {
+  &:before {
+    content: $agi-content-save; 
+  }
+}
+.agi-delete {
+  &:before {
+    content: $agi-delete; 
+  }
+}
+.agi-checkbox-marked-outline-3 {
+  &:before {
+    content: $agi-checkbox-marked-outline-3; 
+  }
+}
+.agi-dots-horizontal {
+  &:before {
+    content: $agi-dots-horizontal; 
+  }
+}
+.agi-send {
+  &:before {
+    content: $agi-send; 
+  }
+}
+.agi-cost {
+  &:before {
+    content: $agi-cost; 
+  }
+}
+.agi-theft {
+  &:before {
+    content: $agi-theft; 
+  }
+}
+.agi-vehicle-group {
+  &:before {
+    content: $agi-vehicle-group; 
+  }
+}
+.agi-communication {
+  &:before {
+    content: $agi-communication; 
+  }
+}
+.agi-batterie {
+  &:before {
+    content: $agi-batterie; 
+  }
+}
+.agi-reservoir {
+  &:before {
+    content: $agi-reservoir; 
+  }
+}
+.agi-index-km {
+  &:before {
+    content: $agi-index-km; 
+  }
+}
+.agi-localize {
+  &:before {
+    content: $agi-localize; 
+  }
+}
+.agi-sms {
+  &:before {
+    content: $agi-sms; 
+  }
+}
+.agi-home {
+  &:before {
+    content: $agi-home; 
+  }
+}
+.agi-boussole {
+  &:before {
+    content: $agi-boussole; 
+  }
+}
+.agi-arrow-right {
+  &:before {
+    content: $agi-arrow-right; 
+  }
+}
+.agi-bank {
+  &:before {
+    content: $agi-bank; 
+  }
+}
+.agi-ambulance {
+  &:before {
+    content: $agi-ambulance; 
+  }
+}
+.agi-domain {
+  &:before {
+    content: $agi-domain; 
+  }
+}
+.agi-silverware {
+  &:before {
+    content: $agi-silverware; 
+  }
+}
+.agi-hotel {
+  &:before {
+    content: $agi-hotel; 
+  }
+}
+.agi-volume-high {
+  &:before {
+    content: $agi-volume-high; 
+  }
+}
+.agi-account-multiple-plus {
+  &:before {
+    content: $agi-account-multiple-plus; 
+  }
+}
+.agi-checkbox-blank-circle-outline {
+  &:before {
+    content: $agi-checkbox-blank-circle-outline; 
+  }
+}
+.agi-format-color-fill {
+  &:before {
+    content: $agi-format-color-fill; 
+  }
+}
+.agi-link-variant {
+  &:before {
+    content: $agi-link-variant; 
+  }
+}
+.agi-link-variant-off {
+  &:before {
+    content: $agi-link-variant-off; 
+  }
+}
+.agi-bell-outline {
+  &:before {
+    content: $agi-bell-outline; 
+  }
+}
+.agi-emoticon-sad {
+  &:before {
+    content: $agi-emoticon-sad; 
+  }
+}
+.agi-eye-off {
+  &:before {
+    content: $agi-eye-off; 
+  }
+}
+.agi-comment-check-outline {
+  &:before {
+    content: $agi-comment-check-outline; 
+  }
+}
+.agi-settings-outlined {
+  &:before {
+    content: $agi-settings-outlined; 
+  }
+}
+.agi-asterisk {
+  &:before {
+    content: $agi-asterisk; 
+  }
+}
+.agi-volume-off {
+  &:before {
+    content: $agi-volume-off; 
+  }
+}
+.agi-moving {
+  &:before {
+    content: $agi-moving; 
+  }
+}
+.agi-circle {
+  &:before {
+    content: $agi-circle; 
+  }
+}
+.agi-battery-alert2 {
+  &:before {
+    content: $agi-battery-alert2; 
+  }
+}
+.agi-polygon {
+  &:before {
+    content: $agi-polygon; 
+  }
+}
+.agi-folder-lock {
+  &:before {
+    content: $agi-folder-lock; 
+  }
+}
+.agi-folder-open {
+  &:before {
+    content: $agi-folder-open; 
+  }
+}
+.agi-folder-empty-locked {
+  &:before {
+    content: $agi-folder-empty-locked; 
+  }
+}
+.agi-map-marker {
+  &:before {
+    content: $agi-map-marker; 
+  }
+}
+.agi-folder-open-locked {
+  &:before {
+    content: $agi-folder-open-locked; 
+  }
+}
+.agi-dots-vertical {
+  &:before {
+    content: $agi-dots-vertical; 
+  }
+}
+.agi-dump-truck {
+  &:before {
+    content: $agi-dump-truck; 
+  }
+}
+.agi-agsup {
+  &:before {
+    content: $agi-agsup; 
+  }
+}
+.agi-truck-mixer {
+  &:before {
+    content: $agi-truck-mixer; 
+  }
+}
+.agi-view-column {
+  &:before {
+    content: $agi-view-column; 
+  }
+}
+.agi-ic-textsms-black-24px {
+  &:before {
+    content: $agi-ic-textsms-black-24px; 
+  }
+}
+.agi-refrigerated-transport {
+  &:before {
+    content: $agi-refrigerated-transport; 
+  }
+}
+.agi-server-network {
+  &:before {
+    content: $agi-server-network; 
+  }
+}
+.agi-real-time {
+  &:before {
+    content: $agi-real-time; 
+  }
+}
+.agi-sim {
+  &:before {
+    content: $agi-sim; 
+  }
+}
+.agi-package-variant {
+  &:before {
+    content: $agi-package-variant; 
+  }
+}
+.agi-modem {
+  &:before {
+    content: $agi-modem; 
+  }
+}
+.agi-help-box {
+  &:before {
+    content: $agi-help-box; 
+  }
+}
+.agi-book-open-page-variant {
+  &:before {
+    content: $agi-book-open-page-variant; 
+  }
+}
+.agi-account-settings-variant {
+  &:before {
+    content: $agi-account-settings-variant; 
+  }
+}
+.agi-comment-inverse {
+  &:before {
+    content: $agi-comment-inverse; 
+  }
+}
+.agi-exclamation {
+  &:before {
+    content: $agi-exclamation; 
+  }
+}
+.agi-timer-sand {
+  &:before {
+    content: $agi-timer-sand; 
+  }
+}
+.agi-parking {
+  &:before {
+    content: $agi-parking; 
+  }
+}
+.agi-gps-good {
+  &:before {
+    content: $agi-gps-good; 
+  }
+}
+.agi-gps-low {
+  &:before {
+    content: $agi-gps-low; 
+  }
+}
+.agi-gps-medium {
+  &:before {
+    content: $agi-gps-medium; 
+  }
+}
+.agi-gps-off {
+  &:before {
+    content: $agi-gps-off; 
+  }
+}
+.agi-gps-top {
+  &:before {
+    content: $agi-gps-top; 
+  }
+}
+.agi-light-vehicle {
+  &:before {
+    content: $agi-light-vehicle; 
+  }
+}
+.agi-end-of-idletime {
+  &:before {
+    content: $agi-end-of-idletime; 
+  }
+}
+.agi-off2 {
+  &:before {
+    content: $agi-off2; 
+  }
+}
+.agi-on2 {
+  &:before {
+    content: $agi-on2; 
+  }
+}
+.agi-tractor {
+  &:before {
+    content: $agi-tractor; 
+  }
+}
+.agi-bus {
+  &:before {
+    content: $agi-bus; 
+  }
+}
+.agi-crane {
+  &:before {
+    content: $agi-crane; 
+  }
+}
+.agi-refueling {
+  &:before {
+    content: $agi-refueling; 
+  }
+}
+.agi-emoticon-happy {
+  &:before {
+    content: $agi-emoticon-happy; 
+  }
+}
+.agi-engine_off {
+  &:before {
+    content: $agi-engine_off; 
+  }
+}
+.agi-ic_fitness_center_black_24px {
+  &:before {
+    content: $agi-ic_fitness_center_black_24px; 
+  }
+}
+.agi-fueltank-big {
+  &:before {
+    content: $agi-fueltank-big; 
+  }
+}
+.agi-fueltank-small {
+  &:before {
+    content: $agi-fueltank-small; 
+  }
+}
+.agi-account-off {
+  &:before {
+    content: $agi-account-off; 
+  }
+}
+.agi-chart-donut {
+  &:before {
+    content: $agi-chart-donut; 
+  }
+}
+

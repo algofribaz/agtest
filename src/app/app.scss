@@ -1,0 +1,109 @@
+// App Styles
+// ----------------------------------------------------------------------------
+// Put style rules here that you want to apply to the entire application. These 
+// styles are for the entire app and not just one component. Additionally, this 
+// file can hold Sass mixins, functions, and placeholder classes to be imported 
+// and used throughout the application.
+
+
+/*Faciliter la gestion des tailles en rem */
+
+:root{
+    font-size:62.5%;
+}
+/*definition du logo en svg*/
+
+.brand-logo{ 
+    max-height: 3.8rem;
+    width:auto;
+    margin-inline-start:.5rem; 
+    vertical-align: middle;
+}
+
+/* Taille des custom icons dans le menu */
+[class^="agi-"], [class*=" agi-"]{
+    font-size:2.4rem;
+    margin-inline-end:1.2rem;
+}
+
+ion-toolbar {
+    --background: var(--ion-color-brand-primary-dark);
+    --border-color: var(--ion-color-brand-primary-dark);
+    --border-style:none;
+    --border-width: 0;
+    --color: var(--ion-color-brand-primary-dark-contrast);
+}
+
+ion-toolbar {
+    ion-icon {
+        min-height: 2.6rem;
+        min-width:2.6rem;
+        padding-inline-end: .8rem;
+        vertical-align: middle;
+    }
+
+}
+
+ion-footer.main-footer {
+    display:block;
+    position:fixed;
+    bottom:0;
+    ion-toolbar{
+        text-align:center;
+    }
+}
+
+// Gestion des hauteurs dans les grids
+ion-grid.dashboard {
+    height:100%;
+    ion-col {
+        display:flex;
+        flex-wrap: wrap;
+        ion-card{
+            flex:1 0 auto;
+        }
+    }
+}
+
+//menu droit utilisateur
+ion-item.user-info {
+    ion-avatar{
+        width:8rem;
+        height:auto;
+    }
+    .sc-ion-label-md-h{
+        font-size: 2.4rem;
+    }
+}
+
+ion-item.user-info, ion-list {
+    padding: 1rem;
+    border-block-start: solid .1rem var(--ion-color-brand-primary); 
+}
+
+ion-list{ 
+    ion-list-header{
+       color:var(--ion-color-brand-primary);
+       font-size:1.8rem;
+    }
+    ion-item {
+        font-size: 1.4rem;
+    }
+}
+
+.button-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.2rem;
+    ion-button {
+        margin:1rem
+    }
+}
+
+
+
+
+
+
+

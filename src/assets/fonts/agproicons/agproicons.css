@@ -1,0 +1,593 @@
+@font-face {
+  font-family: 'agproicons';
+  src:
+    url('fonts/agproicons.ttf?syxn2x') format('truetype'),
+    url('fonts/agproicons.woff?syxn2x') format('woff'),
+    url('fonts/agproicons.woff2?syxn2x') format('woff2'),
+    url('fonts/agproicons.svg?syxn2x#agproicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="agi-"], [class*=" agi-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'agproicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.agi-profitability:before {
+  content: "\e915";
+}
+.agi-rocket:before {
+  content: "\e916";
+}
+.agi-upgrade:before {
+  content: "\e917";
+}
+.agi-trucknet:before {
+  content: "\e918";
+}
+.agi-tachofresh:before {
+  content: "\e919";
+}
+.agi-delete-selected:before {
+  content: "\e914";
+}
+.agi-calendar-solid:before {
+  content: "\e912";
+}
+.agi-eco-driving:before {
+  content: "\e913";
+}
+.agi-thumb-down-outline-1:before {
+  content: "\e910";
+}
+.agi-thumb-up-outline-1:before {
+  content: "\e911";
+}
+.agi-emoticon-neutral:before {
+  content: "\e90e";
+}
+.agi-help-circle-outline:before {
+  content: "\e90f";
+}
+.agi-emoticon-cool:before {
+  content: "\e90d";
+}
+.agi-folder_locked_open:before {
+  content: "\e909";
+}
+.agi-folder_shared:before {
+  content: "\e90a";
+}
+.agi-folder_shared_locked:before {
+  content: "\e90b";
+}
+.agi-folder_shared_open:before {
+  content: "\e90c";
+}
+.agi-gauge:before {
+  content: "\e908";
+}
+.agi-view-list:before {
+  content: "\21";
+}
+.agi-couleur-fond:before {
+  content: "\22";
+}
+.agi-wrench:before {
+  content: "\23";
+}
+.agi-power:before {
+  content: "\24";
+}
+.agi-cancel:before {
+  content: "\25";
+}
+.agi-driving:before {
+  content: "\26";
+}
+.agi-available:before {
+  content: "\27";
+}
+.agi-parking-1:before {
+  content: "\28";
+}
+.agi-archive:before {
+  content: "\29";
+}
+.agi-archived:before {
+  content: "\2a";
+}
+.agi-departure:before {
+  content: "\2b";
+}
+.agi-erase:before {
+  content: "\2c";
+}
+.agi-favorite:before {
+  content: "\2d";
+}
+.agi-ignition-off:before {
+  content: "\2e";
+}
+.agi-ignition:before {
+  content: "\2f";
+}
+.agi-working:before {
+  content: "\30";
+}
+.agi-printer:before {
+  content: "\31";
+}
+.agi-replay:before {
+  content: "\32";
+}
+.agi-security:before {
+  content: "\33";
+}
+.agi-speedometer:before {
+  content: "\34";
+}
+.agi-timer:before {
+  content: "\35";
+}
+.agi-trending-down:before {
+  content: "\36";
+}
+.agi-trending-up:before {
+  content: "\37";
+}
+.agi-truck:before {
+  content: "\38";
+}
+.agi-view-dashboard:before {
+  content: "\39";
+}
+.agi-gps:before {
+  content: "\3a";
+}
+.agi-report:before {
+  content: "\3b";
+}
+.agi-arrival:before {
+  content: "\3c";
+}
+.agi-engine:before {
+  content: "\3d";
+}
+.agi-star-outline:before {
+  content: "\3e";
+}
+.agi-valid:before {
+  content: "\3f";
+}
+.agi-iddletime-ow:before {
+  content: "\40";
+}
+.agi-email:before {
+  content: "\41";
+}
+.agi-email-outline:before {
+  content: "\42";
+}
+.agi-eye:before {
+  content: "\43";
+}
+.agi-file-excel:before {
+  content: "\44";
+}
+.agi-file-pdf:before {
+  content: "\45";
+}
+.agi-filter:before {
+  content: "\46";
+}
+.agi-filter-outline:before {
+  content: "\47";
+}
+.agi-gas-station:before {
+  content: "\48";
+}
+.agi-information:before {
+  content: "\49";
+}
+.agi-information-outline:before {
+  content: "\4a";
+}
+.agi-laptop:before {
+  content: "\4b";
+}
+.agi-lock:before {
+  content: "\4c";
+}
+.agi-magnify:before {
+  content: "\4d";
+}
+.agi-map:before {
+  content: "\4e";
+}
+.agi-map-marker-radius:before {
+  content: "\4f";
+}
+.agi-menu:before {
+  content: "\50";
+}
+.agi-menu-down:before {
+  content: "\51";
+}
+.agi-menu-left:before {
+  content: "\52";
+}
+.agi-menu-right:before {
+  content: "\53";
+}
+.agi-menu-up:before {
+  content: "\54";
+}
+.agi-page-first:before {
+  content: "\55";
+}
+.agi-page-last:before {
+  content: "\56";
+}
+.agi-pencil:before {
+  content: "\57";
+}
+.agi-phone:before {
+  content: "\58";
+}
+.agi-play-circle-outline:before {
+  content: "\59";
+}
+.agi-plus:before {
+  content: "\5a";
+}
+.agi-siren:before {
+  content: "\5b";
+}
+.agi-arrow-left:before {
+  content: "\5c";
+}
+.agi-itineraire-final:before {
+  content: "\5d";
+}
+.agi-action:before {
+  content: "\5e";
+}
+.agi-break:before {
+  content: "\5f";
+}
+.agi-checkbox-blank-outline-2:before {
+  content: "\60";
+}
+.agi-account:before {
+  content: "\61";
+}
+.agi-account-multiple:before {
+  content: "\62";
+}
+.agi-chevron-down:before {
+  content: "\63";
+}
+.agi-bell:before {
+  content: "\64";
+}
+.agi-alert:before {
+  content: "\65";
+}
+.agi-alert-octagon:before {
+  content: "\66";
+}
+.agi-arrow-all:before {
+  content: "\67";
+}
+.agi-arrow-compress-all:before {
+  content: "\68";
+}
+.agi-av-timer:before {
+  content: "\69";
+}
+.agi-bell-ring:before {
+  content: "\6a";
+}
+.agi-account-star-variant:before {
+  content: "\6b";
+}
+.agi-calendar-clock:before {
+  content: "\6c";
+}
+.agi-calendar-range:before {
+  content: "\6d";
+}
+.agi-calendar-today:before {
+  content: "\6e";
+}
+.agi-cellphone-iphone:before {
+  content: "\6f";
+}
+.agi-chart-line:before {
+  content: "\70";
+}
+.agi-warehouse:before {
+  content: "\71";
+}
+.agi-account-outline:before {
+  content: "\72";
+}
+.agi-chevron-left:before {
+  content: "\73";
+}
+.agi-chevron-right:before {
+  content: "\74";
+}
+.agi-chevron-up:before {
+  content: "\75";
+}
+.agi-city:before {
+  content: "\76";
+}
+.agi-clock:before {
+  content: "\77";
+}
+.agi-clock-fast:before {
+  content: "\78";
+}
+.agi-content-save:before {
+  content: "\79";
+}
+.agi-delete:before {
+  content: "\7a";
+}
+.agi-checkbox-marked-outline-3:before {
+  content: "\7b";
+}
+.agi-dots-horizontal:before {
+  content: "\7c";
+}
+.agi-send:before {
+  content: "\7d";
+}
+.agi-cost:before {
+  content: "\7e";
+}
+.agi-theft:before {
+  content: "\e000";
+}
+.agi-vehicle-group:before {
+  content: "\e001";
+}
+.agi-communication:before {
+  content: "\e002";
+}
+.agi-batterie:before {
+  content: "\e003";
+}
+.agi-reservoir:before {
+  content: "\e004";
+}
+.agi-index-km:before {
+  content: "\e005";
+}
+.agi-localize:before {
+  content: "\e006";
+}
+.agi-sms:before {
+  content: "\e007";
+}
+.agi-home:before {
+  content: "\e008";
+}
+.agi-boussole:before {
+  content: "\e009";
+}
+.agi-arrow-right:before {
+  content: "\e00a";
+}
+.agi-bank:before {
+  content: "\e00b";
+}
+.agi-ambulance:before {
+  content: "\e00c";
+}
+.agi-domain:before {
+  content: "\e00e";
+}
+.agi-silverware:before {
+  content: "\e00f";
+}
+.agi-hotel:before {
+  content: "\e010";
+}
+.agi-volume-high:before {
+  content: "\e011";
+}
+.agi-account-multiple-plus:before {
+  content: "\e012";
+}
+.agi-checkbox-blank-circle-outline:before {
+  content: "\e013";
+}
+.agi-format-color-fill:before {
+  content: "\e014";
+}
+.agi-link-variant:before {
+  content: "\e015";
+}
+.agi-link-variant-off:before {
+  content: "\e016";
+}
+.agi-bell-outline:before {
+  content: "\e017";
+}
+.agi-emoticon-sad:before {
+  content: "\e018";
+}
+.agi-eye-off:before {
+  content: "\e019";
+}
+.agi-comment-check-outline:before {
+  content: "\e01a";
+}
+.agi-settings-outlined:before {
+  content: "\e01b";
+}
+.agi-asterisk:before {
+  content: "\e01c";
+}
+.agi-volume-off:before {
+  content: "\e01d";
+}
+.agi-moving:before {
+  content: "\e01e";
+}
+.agi-circle:before {
+  content: "\e01f";
+}
+.agi-battery-alert2:before {
+  content: "\e020";
+}
+.agi-polygon:before {
+  content: "\e021";
+}
+.agi-folder-lock:before {
+  content: "\e022";
+}
+.agi-folder-open:before {
+  content: "\e023";
+}
+.agi-folder-empty-locked:before {
+  content: "\e024";
+}
+.agi-map-marker:before {
+  content: "\e025";
+}
+.agi-folder-open-locked:before {
+  content: "\e026";
+}
+.agi-dots-vertical:before {
+  content: "\e027";
+}
+.agi-dump-truck:before {
+  content: "\e028";
+}
+.agi-agsup:before {
+  content: "\e029";
+}
+.agi-truck-mixer:before {
+  content: "\e02a";
+}
+.agi-view-column:before {
+  content: "\e02b";
+}
+.agi-ic-textsms-black-24px:before {
+  content: "\e02c";
+}
+.agi-refrigerated-transport:before {
+  content: "\e02d";
+}
+.agi-server-network:before {
+  content: "\e02e";
+}
+.agi-real-time:before {
+  content: "\e02f";
+}
+.agi-sim:before {
+  content: "\e030";
+}
+.agi-package-variant:before {
+  content: "\e031";
+}
+.agi-modem:before {
+  content: "\e032";
+}
+.agi-help-box:before {
+  content: "\e033";
+}
+.agi-book-open-page-variant:before {
+  content: "\e034";
+}
+.agi-account-settings-variant:before {
+  content: "\e035";
+}
+.agi-comment-inverse:before {
+  content: "\e036";
+}
+.agi-exclamation:before {
+  content: "\e037";
+}
+.agi-timer-sand:before {
+  content: "\e038";
+}
+.agi-parking:before {
+  content: "\e039";
+}
+.agi-gps-good:before {
+  content: "\e03a";
+}
+.agi-gps-low:before {
+  content: "\e03b";
+}
+.agi-gps-medium:before {
+  content: "\e03c";
+}
+.agi-gps-off:before {
+  content: "\e03d";
+}
+.agi-gps-top:before {
+  content: "\e03e";
+}
+.agi-light-vehicle:before {
+  content: "\e03f";
+}
+.agi-end-of-idletime:before {
+  content: "\e040";
+}
+.agi-off2:before {
+  content: "\e041";
+}
+.agi-on2:before {
+  content: "\e042";
+}
+.agi-tractor:before {
+  content: "\e043";
+}
+.agi-bus:before {
+  content: "\e044";
+}
+.agi-crane:before {
+  content: "\e045";
+}
+.agi-refueling:before {
+  content: "\e900";
+}
+.agi-emoticon-happy:before {
+  content: "\e901";
+}
+.agi-engine_off:before {
+  content: "\e902";
+}
+.agi-ic_fitness_center_black_24px:before {
+  content: "\e903";
+}
+.agi-fueltank-big:before {
+  content: "\e904";
+}
+.agi-fueltank-small:before {
+  content: "\e905";
+}
+.agi-account-off:before {
+  content: "\e906";
+}
+.agi-chart-donut:before {
+  content: "\e907";
+}
